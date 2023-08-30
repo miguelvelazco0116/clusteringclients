@@ -35,6 +35,5 @@ It's important to note that as part of the data preprocessing, we'll undertake a
 
 <img src="overview_data.png" alt="overview data" width="450">
 
-```python
 
-```
+It's vital to acknowledge that certain features, such as products, category, and channel, required encoding for further analysis.
