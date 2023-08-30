@@ -1,8 +1,20 @@
-# clustering clients
+# ClientSculpt: Mastering Customer Segmentation
 
 
-The following project centers on client clustering through a lens of **pricing strategies**
+<img src="clustering clients.webp" alt="clustering clients" width="600">
 
-```python
 
-```
+- [Context](#context)
+- [Introduction](#introduction)
+   + [Data exploring](big_query.ipynb)
+
+
+# Context
+
+
+Utilizing *Google's BigQuery* as a Robust Data Source, this notebook delves into the dynamic consumer behavior within the United States. 
+
+By scrutinizing distinct days, it endeavors to extract valuable insights, leading to a comprehensive customer segmentation. The ultimate goal is to refine our **pricing strategy** through a profound understanding of their behaviors.
+
+
+# Introduction
