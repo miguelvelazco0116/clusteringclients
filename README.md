@@ -9,6 +9,8 @@
    + [Data exploring](big_query.ipynb)
 - [Clustering](#clustering)
    + [Clustering](big_query.ipynb)
+- [Insights](#insights)
+   + [Insights](big_query.ipynb)
 
 
 # Context
@@ -60,3 +62,15 @@ A more effective method involves employing the **silhouette score** to establish
 
 
 _Note: It's crucial to emphasize that our initial analytical approach involves utilizing the **k-means** algorithm. However, considering the unique nature of our data, the presence of outliers, and the uncertain complexity of the clusters, an alternative avenue we're considering is the **DBSCAN** method. We acknowledge that while distance to the centroid seems reasonable, there's a possibility that the optimal approach may be more aligned with spectral density._
+
+
+# Insights
+
+
+After successfully categorizing our customers, we can delve deeper into the insights derived from these clusters, aligning with our initial assumptions. We've identified five distinct customer segments.
+
+
+The chart below vividly illustrates that the red and orange clients show a stronger inclination towards purchasing items from higher-priced categories. However, in contrast, the purple clients exhibit a preference for lower-priced categories, albeit with a higher frequency across multiple categories. This discerns them as our price-conscious seekers. Meanwhile, the red and orange clients represent our higher-value customers, more inclined towards premium pricing.
+
+
+<img src="cat_vs_price.png" alt="category vs price" width="800">
