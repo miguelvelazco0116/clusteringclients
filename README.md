@@ -7,6 +7,8 @@
 - [Context](#context)
 - [Introduction](#introduction)
    + [Data exploring](big_query.ipynb)
+- [Clustering](#clustering)
+   + [Clustering](big_query.ipynb)
 
 
 # Context
