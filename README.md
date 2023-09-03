@@ -11,6 +11,8 @@
    + [Clustering](big_query.ipynb)
 - [Insights](#insights)
    + [Insights](big_query.ipynb)
+- [Conclusions](#conclusions)
+   + [Conclusions](big_query.ipynb)
 
 
 # Context
@@ -74,3 +76,22 @@ The chart below vividly illustrates that the red and orange clients show a stron
 
 
 <img src="cat_vs_price.png" alt="category vs price" width="800">
+
+
+To counter the earlier observations, it's evident that orange and red clients are inclined towards a higher average ticket value, which aligns with the product mix favored by green clients. Given this insight, we can develop package promotions that cater to clients in the red, orange, and green segments. However, before proceeding, it's crucial to thoroughly assess the interactions among these products.
+
+
+<img src="prod_vs_price.png" alt="product vs price" width="800">
+
+
+# Conclusions
+
+
+In summation, it is evident that certain clusters predominantly engage with **lower-priced items**, while two clusters exhibit interactions with **higher-priced** products. This phenomenon could likely stem from the nature of the products themselves; some clusters appear to be centered around home-related items, while others revolve around clothing. Consequently, delving further into the interplay between product interactions, prices, and categories could yield valuable insights.
+
+Drawing from the preceding insights into cluster-product-price **interactions**, we can formulate a strategic packaging approach. This entails crafting distinct package tiers such as basic, best value, and premium, all with the overarching goal of bolstering our market share.
+
+It's crucial to emphasize that the foundational strategy outlined here is a hypothesis. To refine it further, a deeper exploration of price behavior is imperative to ascertain the market's elasticity accurately.
+
+
+<img src="package.png" alt="package" width="600">
